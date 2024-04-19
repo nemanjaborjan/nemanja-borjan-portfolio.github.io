@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+  header #centar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  header #centar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  .naslov1 {
+    font-size: 36px;
+  }
+  .naslov2 {
+    font-size: 36px;
+  }
+  #o-meni .ram img {
+    height: 450px;
+  }
+  #o-meni .ram p {
+    font-size: 22px;
+  }
+  #usluge #centar1 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #usluge #centar1 .usluga {
+    width: 40%;
+    margin-bottom: 3%;
+  }
+  #projekti #centar2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    border-radius: 30px;
+  }
+  #projekti #centar2 .ram2 {
+    width: 45%;
+  }
+  #projekti #centar2 .ram2 img {
+    padding: 5% 0;
+  }
+  #kontakt {
+    padding-bottom: 3%;
+  }
+  #kontakt #centar3 .ram3 p {
+    font-size: 20px;
+  }
+  #kontakt #centar3 .ram3 a i {
+    font-size: 22px;
+  }
+  footer a {
+    font-size: 16px;
+  }
+  footer a i {
+    font-size: 24px;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header #centar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  header #centar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  .naslov1 {
+    font-size: 32px;
+  }
+  .naslov2 {
+    font-size: 32px;
+  }
+  #o-meni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25%;
+    padding-bottom: 25%;
+  }
+  #o-meni .ram img {
+    height: 400px;
+  }
+  #o-meni .ram p {
+    font-size: 22px;
+  }
+  #usluge #centar1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  #usluge #centar1 .usluga {
+    width: 70%;
+    padding: 2% 0%;
+    margin-bottom: 6%;
+  }
+  #usluge #centar1 .usluga i {
+    font-size: 120px;
+  }
+  #usluge #centar1 .usluga .opis {
+    font-size: 22px;
+  }
+  #projekti #centar2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  #projekti #centar2 .ram2 {
+    width: 80%;
+    padding: 2% 0%;
+  }
+  #projekti #centar2 .ram2 img {
+    height: 300px;
+    padding: 2% 0;
+    border-radius: 30px;
+  }
+  #kontakt #centar3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #kontakt #centar3 .ram3 {
+    width: 60%;
+    margin: 3% 0;
+  }
+  #kontakt #centar3 .ram3 p {
+    font-size: 18px;
+  }
+  #kontakt #centar3 .ram3 a i {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

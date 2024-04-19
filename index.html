@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="icon" href="img/logoweb.ico" type="imag/x-icon"/>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="Portfolio i web development"/>
+        <meta name="description" content="Dobro došli na moj portfolio sajt na kome ćete saznati nešto više o meni"/>
+        <title>Nemanja Borjan | Portfolio</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="centar">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="img/logo.jpg" alt="Logo"/>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Početna</a>
+                        </li>
+                        <li>
+                            <a href="#o-meni">O meni</a>
+                        </li>
+                        <li>
+                            <a href="#usluge">Usluge</a>
+                        </li>
+                        <li>
+                            <a href="#projekti">Projekti</a>
+                        </li>
+                        <li>
+                            <a href="#kontakt">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="pozadina">
+            <article id="naslov">
+                <h1>Dobro došli na moj sajt</h1>
+                <p>Nemanja Borjan - Web Developer</p>
+            </article>
+        </section>
+
+        <h2 class="naslov1">O meni</h2>
+        <section id="o-meni">
+            <div class="ram">
+                <img src="img/profil.jpg" alt="profilna slika">
+            </div>
+            <div class="ram">
+                <p>Zovem se Nemanja Borjan. Rođen sam 08.05.2004. Pohađao sam elektrotehničku školu "Nikola Tesla". Trenutno studiram na ICT-u, smer Internet tehnologije, gde planiram da postanem web developer kao i mnogi drugi studenti. U slobodno vreme volim da slušam muziku i igram igrice. <br/><br/>Br. indeksa 119/23</p>
+            </div>
+        </section>
+
+        <section id="usluge">
+            <h2 class="naslov2">Moje sposobnosti</h2>
+            <div id="centar1">
+                <div class="usluga">
+                    <i class="fa-brands fa-html5 boja"></i>
+                    <p class="opis boja">HTML</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-css3-alt boja"></i>
+                    <p class="opis boja">CSS</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-solid fa-database boja"></i>
+                    <p class="opis boja">SQL</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-bootstrap boja"></i>
+                    <p class="opis boja">BOOTSTRAP</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-js boja"></i>
+                    <p class="opis boja">JAVA SCRIPT</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-python boja"></i>
+                    <p class="opis boja">PYTHON</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-php boja"></i>
+                    <p class="opis boja">PHP</p>
+                </div>
+                <div class="usluga">
+                    <i class="fa-brands fa-wordpress boja"></i>
+                    <p class="opis boja">WORDPRESS</p>
+                </div>
+            </div> 
+        </section>
+
+        <section id="projekti">
+            <h2 class="naslov1">Moji projekti</h2>
+            <div id="centar2">
+                <div class="ram2">
+                    <a href="https://nemanjaborjanigraonica.000webhostapp.com/" target="_blank"><img src="img/sajt1.JPG" alt="sajt1"></a>
+                </div>
+                <div class="ram2">
+                    <a href="index.html" target="_blank"><img src="img/sajt2.JPG" alt="sajt2"></a>
+                </div>
+                <div class="ram2">
+                    <a href="https://www.free-css.com/free-css-templates/page296/carvilla" target="_blank"><img src="img/sajt3.JPG" alt="sajt3"></a>
+                </div>
+                <div class="ram2">
+                    <a href="https://www.free-css.com/free-css-templates/page296/finexo" target="_blank"><img src="img/sajt4.JPG" alt="sajt4"></a>
+                </div>
+            </div> 
+        </section>
+
+        <div id="kontakt">
+            <h2 class="naslov2">Kontakt</h2>
+
+            <div id="centar3">
+                <div class="ram3">
+                    <form action="obrada.php" method="GET">
+                                
+                        <label for="ime">Unesite svoje ime:</label><br/>
+                        <input type="text" id="ime" name="ime" required="required" size="50" placeholder="Ime"/><br/><br/>
+                        
+                        <label for="prezime">Unesite svoje prezime:</label><br/>
+                        <input type="text" id="prezime" name="prezime" required="required" size="50" placeholder="Prezime"/><br/><br/>
+                        
+                        <label for="imejl">Unesite svoj e-mail:</label><br/>
+                        <input type="email" id="imejl" name="imejl" size="50" required="required" placeholder="Email"><br/><br/>
+                        
+                        <input type="submit" id="posalji" name="posalji" value="Pošalji"/>
+                        
+                    </form>
+                </div>
+                
+                <div class="ram3">
+                    <p>Možete me dobiti putem telefona:</p>
+                    <p><i class="fa-solid fa-phone razmak"></i>+381603114812</p>
+                    <p><i class="fa-solid fa-location-dot razmak"></i>Zdravka Čelara 16</p><br/>
+                    <p>Ili putem e-maila:</p>
+                    <p><i class="fa-solid fa-envelope razmak"></i>nemanja.borjan.119.23@ict.edu.rs</p><br/>
+                    <p>Društvene mreže:</p>
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa-brands fa-instagram razmak"></i>Instagram</a>
+                    <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook razmak"></i>Facebook</a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-square-x-twitter razmak"></i>Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+			<a href="css/style.scss"  target="_blank"><i class="fa-brands fa-sass razmak"></i>SASS</a></li>
+			<a href="css/responsive.scss"  target="_blank"><i class="fa-brands fa-sass razmak"></i>SASS</a></li>
+
+            <p>Nemanja Borjan 119/23 &copy; Sva prava zadržana</p>
+
+			<a href="rss.xml"  target="_blank"><i class="fa-solid fa-rss razmak"></i>RSS</a></li>
+			<a href="sitemap.xml"  target="_blank"><i class="fa-solid fa-sitemap razmak"></i>Sitemap</a></li>
+		</footer>
+    </body>
+</html>

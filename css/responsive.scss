@@ -1,0 +1,214 @@
+@media screen and (max-width: 1200px){
+    header{
+        #centar{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2%;
+            }
+        }
+    }
+
+    .naslov1{
+        font-size: 36px;
+    }
+
+    .naslov2{
+        font-size: 36px;
+    }
+
+    #o-meni{
+        .ram{
+            img{
+                height: 450px;
+            }
+
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+
+    #usluge{
+        
+        #centar1{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            
+            .usluga{
+                width: 40%;
+                margin-bottom: 3%;
+            }
+        }
+    }
+
+    #projekti{
+        
+        #centar2{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2%;
+            border-radius: 30px;
+            
+            .ram2{
+                width: 45%;
+                img{
+                    padding: 5% 0;
+                }
+            }
+        }
+    }
+
+    #kontakt{
+        padding-bottom: 3%;
+        #centar3{
+
+            .ram3{
+    
+                p{
+                    font-size: 20px;
+
+                }
+
+                a{
+                    i{
+                       font-size: 22px;
+                    }
+                }
+    
+            }
+        }
+    }
+
+    footer{
+
+        a{
+            font-size: 16px;
+
+            i{
+                font-size: 24px;
+            }
+        }
+    
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        #centar{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2%;
+            }
+        }
+    }
+
+    .naslov1{
+        font-size: 32px;
+    }
+
+    .naslov2{
+        font-size: 32px;
+    }
+    
+    #o-meni{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25%;
+        padding-bottom: 25%;
+        .ram{
+            img{
+                height: 400px;
+            }
+
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+
+    #usluge{
+        
+        #centar1{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            .usluga{
+                width: 70%;
+                padding: 2% 0%;
+                margin-bottom: 6%;
+                i{
+                    font-size: 120px;
+                }
+    
+                .opis{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    #projekti{
+        
+        #centar2{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+
+            .ram2{
+                width: 80%;
+                padding: 2% 0%;
+
+                img{
+                    height: 300px;
+                    padding: 2% 0;
+                    border-radius: 30px;
+                }
+
+            }
+        }
+    }
+
+    #kontakt{
+    
+        #centar3{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .ram3{
+                width: 60%;
+                margin: 3% 0;
+                p{
+                    font-size: 18px;
+
+                }
+
+                a{
+                    i{
+                       font-size: 20px;
+                    }
+                }
+    
+            }
+        }
+    }
+
+}

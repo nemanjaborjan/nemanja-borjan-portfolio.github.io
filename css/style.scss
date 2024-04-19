@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$crna:#000;
+$pozboja:#111111;
+$zuta:#ffff00;
+$bela:#fff;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: $crna;
+
+    #centar{
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        margin:0px auto;
+
+        #logo{
+
+            a{
+                img{
+                    height: 100px;
+                }
+            }
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            ul{
+                display: flex;
+                list-style-type: none;
+
+                li{
+                    padding-right:30px;
+
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 28px;
+                        
+                        &:hover{
+                            color:$zuta;
+                            transition:0.8s all ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#pozadina{
+    height: 812px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../img/pozadina.jpg);
+    position: relative;
+    #naslov{
+        position: absolute;
+        top: 35%;
+        left: 7%;
+        background-color: $bela;
+        opacity: 0.7;
+        border-radius: 15px;
+        padding:2%;
+        h1{
+            font-size: 50px;
+            margin-bottom:1%;
+        }
+        p{
+            font-size: 32px;
+            padding-left: 3%;
+        }
+    }
+}
+
+.naslov1{
+    margin: 2% auto;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 3px solid $crna;
+}
+
+.naslov2{
+    margin: 2% auto;
+    padding-top: 2%;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid $bela;
+    color: $bela;
+}
+
+.razmak{
+    padding-right: 10px;
+}
+
+#o-meni{
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .ram{
+        width: 45%;
+        margin:5% 5% 0% 5%;
+
+        img{
+            height: 500px;
+            border: 3px solid $crna;
+            border-radius: 0% 10% 0% 10%;
+        }
+        
+        p{
+            font-size: 24px;
+            border: 3px solid $crna;
+            border-radius: 10% 0% 10% 0%;
+            padding: 3%;
+        }
+    }
+
+}
+
+#usluge{
+    background-color: $crna;
+    padding-bottom: 4%;
+
+    #centar1{
+        margin: 5% auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .usluga{
+            padding: 2% 0%;
+            width: 20%;
+            margin: 2%;
+            background-color: $pozboja;
+            text-align: center;
+            border-radius: 5%;
+
+            i{
+                color: $bela;
+                font-size: 85px;
+                
+            }
+
+            .opis{
+                color: $bela;
+                font-size: 22px;
+                margin-top: 5%;
+            }
+
+        }
+    }
+}
+
+#projekti{
+
+    #centar2{
+        margin: 5% auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 15px;
+        align-items: center;
+        border: 3px solid $crna;
+        padding: 1%;
+
+        .ram2{
+            width: 23%;
+
+            img{
+                width: 100%;
+                height: 270px;
+                border-radius: 20px;
+                &:hover{
+                    transform:scale(1.1);
+	                transition:0.8s ease 
+                }
+            }
+        }
+    }
+}
+
+#kontakt{
+    background-color: $crna;
+    padding-bottom: 3%;
+
+    #centar3{
+        margin: 5% auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .ram3{
+            background-color:$pozboja;
+            width: 35% ;
+            border-radius: 30px;
+            padding: 2%;
+            text-align: center;
+
+            p{
+                color: $bela;
+                font-size: 24px;
+                padding-bottom: 5px;
+
+                i{
+                    color: $zuta;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: $bela;
+                font-size: 20px;
+                margin: 0 2%;
+
+                &:hover{
+                    color:$zuta;
+                    transition:0.8s all ease;
+                }
+
+                i{
+                   font-size: 26px;
+                   color: $zuta;
+                }
+            }
+
+            form{
+
+                input{
+                    width: 70%;
+                    padding: 1%;
+                }
+
+                input:nth-of-type(4){
+                    width: 30%;
+                    &:hover{
+                        background-color:$zuta;
+                        transition:1.2s all ease;
+                    }
+                }
+
+                label{
+                    color: $bela;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    padding: 1%;
+    background-color: $pozboja;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: bottom;
+
+    a{
+        color: $bela;
+        text-decoration: none;
+        font-size: 20px;
+        i{
+            font-size: 30px;
+            color: $zuta;
+        }
+
+        &:hover{
+            color:$zuta;
+            transition:0.8s all ease;
+        }
+    }
+
+    p{
+        font-size: 22px;
+        color: $bela;
+    }
+}
